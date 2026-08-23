@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Transaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Albaranes>
+<Albaran>
+<Numero>830267</Numero>
+<Empresa>AUTOCARES LEVANTE, S.A.</Empresa>
+<Fecha>08/06/2025</Fecha>
+<TipoRec>E</TipoRec>
+<Alias></Alias>
+<Proveedor>TEST</Proveedor>
+<TipoSer>S</TipoSer>
+<Hora>04:10:00</Hora>
+<HoraAeropuerto>05:25:00</HoraAeropuerto>
+<Letrero>15</Letrero>
+<TTOO>T.U.I</TTOO>
+<Agencia>ULTRAMAR (GC4MD)</Agencia>
+<Excursion></Excursion>
+<Guia></Guia>
+<Aeropuerto>CGN</Aeropuerto>
+<Vuelo>EW581</Vuelo>
+<Observacion></Observacion>
+<Referencia>1594570</Referencia>
+<ObservacionChofer></ObservacionChofer>
+<Zonas>
+<Zona>
+<Orden>1</Orden>
+<ZonaInicio>CR</ZonaInicio>
+<ZonaFin>APT</ZonaFin>
+<Hora>04:10:00</Hora>
+<Personas>2</Personas>
+<Adultos>2</Adultos>
+<Niños>0</Niños>
+<Bicis>0</Bicis>
+<Bebes>0</Bebes>
+<NiñosB>0</NiñosB>
+<Invitados>0</Invitados>
+<Hoteles>
+<Hotel>
+<Orden>1</Orden>
+<Establecimiento>CLUB CALA RATJADA................................................................................................................................................</Establecimiento>
+<Habitacion>..................................................................................................................</Habitacion>
+<Hora>04:10:00</Hora>
+<Personas>2</Personas>
+<Adultos>2</Adultos>
+<Niños>0</Niños>
+<Bebes>0</Bebes>
+<Bicis>0</Bicis>
+<Agencia></Agencia>
+<LugarRecogida>................................................................................................................................</LugarRecogida>
+<Observacion>[CLUB HOTEL CALA RATJADA] MELVIN, MAIER</Observacion>
+</Hotel>
+</Hoteles>
+</Zona>
+</Zonas>
+</Albaran>
+<Albaran>
+<Numero>830284</Numero>
+<Empresa>AUTOCARES LEVANTE, S.A.</Empresa>
+<Fecha>Domingo, 8 de Junio de 2025</Fecha>
+<TipoRec>E</TipoRec>
+<Proveedor>TEST</Proveedor>
+<TipoSer>S</TipoSer>
+<Hora>05:40:00</Hora>
+<HoraAeropuerto>06:55:00</HoraAeropuerto>
+<Letrero>305</Letrero>
+<TTOO>JET-AIR</TTOO>
+<Agencia>ULTRAMAR (GC4MD)</Agencia>
+<Excursion></Excursion>
+<Guia></Guia>
+<Aeropuerto>LGG</Aeropuerto>
+<Vuelo>TB1432</Vuelo>
+<Observacion>TAXI PRIVADO</Observacion>
+<Referencia>1594036</Referencia>
+<ObservacionChofer></ObservacionChofer>
+<Zonas>
+<Zona>
+<Orden>1</Orden>
+<ZonaInicio>CR</ZonaInicio>
+<ZonaFin>APT</ZonaFin>
+<Hora>05:40:00</Hora>
+<Personas>2</Personas>
+<Adultos>2</Adultos>
+<Niños>0</Niños>
+<Bicis>0</Bicis>
+<Bebes>0</Bebes>
+<NiñosB>0</NiñosB>
+<Invitados>0</Invitados>
+<Hoteles>
+<Hotel>
+<Orden>1</Orden>
+<Establecimiento>FONT DE SA CALA................................................................................................................................................</Establecimiento>
+<Habitacion>..................................................................................................................</Habitacion>
+<Hora>05:40:00</Hora>
+<Personas>2</Personas>
+<Adultos>2</Adultos>
+<Niños>0</Niños>
+<Bebes>0</Bebes>
+<Bicis>0</Bicis>
+<Agencia></Agencia>
+<LugarRecogida>................................................................................................................................</LugarRecogida>
+<Observacion>[BEACH CLUB FONT DE SA CALA] C DESEURE , L CARDON </Observacion>
+</Hotel>
+</Hoteles>
+</Zona>
+</Zonas>
+</Albaran>
+<Albaran>
+<Numero>830346</Numero>
+<Empresa>AUTOCARES LEVANTE, S.A.</Empresa>
+<Fecha>Domingo, 8 de Junio de 2025</Fecha>
+<TipoRec>E</TipoRec>
+<Proveedor>TEST</Proveedor>
+<TipoSer>S</TipoSer>
+<Hora>08:50:00</Hora>
+<HoraAeropuerto>10:05:00</HoraAeropuerto>
+<Letrero>352</Letrero>
+<TTOO>T.U.I</TTOO>
+<Agencia>ULTRAMAR (GC4MD)</Agencia>
+<Excursion></Excursion>
+<Guia></Guia>
+<Aeropuerto>HAM</Aeropuerto>
+<Vuelo>EW7585</Vuelo>
+<Observacion>TAXI PRIVADO</Observacion>
+<Referencia>1594257</Referencia>
+<ObservacionChofer></ObservacionChofer>
+<Zonas>
+<Zona>
+<Orden>1</Orden>
+<ZonaInicio>CR</ZonaInicio>
+<ZonaFin>APT</ZonaFin>
+<Hora>08:50:00</Hora>
+<Personas>1</Personas>
+<Adultos>1</Adultos>
+<Niños>0</Niños>
+<Bicis>0</Bicis>
+<Bebes>0</Bebes>
+<NiñosB>0</NiñosB>
+<Invitados>0</Invitados>
+<Hoteles>
+<Hotel>
+<Orden>1</Orden>
+<Establecimiento>MAR AZUL................................................................................................................................................</Establecimiento>
+<Habitacion>..................................................................................................................</Habitacion>
+<Hora>08:50:00</Hora>
+<Personas>1</Personas>
+<Adultos>1</Adultos>
+<Niños>0</Niños>
+<Bebes>0</Bebes>
+<Bicis>0</Bicis>
+<Agencia></Agencia>
+<LugarRecogida>................................................................................................................................</LugarRecogida>
+<Observacion>[MAR AZUL] JUDITH KUEBSCHOLL</Observacion>
+</Hotel>
+</Hoteles>
+</Zona>
+</Zonas>
+</Albaran>
+<Albaran>
+<Numero>830384</Numero>
+<Empresa>AUTOCARES LEVANTE, S.A.</Empresa>
+<Fecha>Domingo, 8 de Junio de 2025</Fecha>
+<TipoRec>E</TipoRec>
+<Proveedor>TEST</Proveedor>
+<TipoSer>S</TipoSer>
+<Hora>10:00:00</Hora>
+<HoraAeropuerto>11:00:00</HoraAeropuerto>
+<Letrero>LENZ</Letrero>
+<TTOO></TTOO>
+<Agencia>HOLIDAYLAND</Agencia>
+<Excursion></Excursion>
+<Guia></Guia>
+<Aeropuerto></Aeropuerto>
+<Vuelo></Vuelo>
+<Observacion></Observacion>
+<Referencia>LENZ</Referencia>
+<ObservacionChofer></ObservacionChofer>
+<Zonas>
+<Zona>
+<Orden>1</Orden>
+<ZonaInicio>CR</ZonaInicio>
+<ZonaFin></ZonaFin>
+<Hora>10:00:00</Hora>
+<Personas>3</Personas>
+<Adultos>3</Adultos>
+<Niños>0</Niños>
+<Bicis>0</Bicis>
+<Bebes>0</Bebes>
+<NiñosB>0</NiñosB>
+<Invitados>0</Invitados>
+<Hoteles>
+<Hotel>
+<Orden>1</Orden>
+<Establecimiento>SERRANO PALACE................................................................................................................................................</Establecimiento>
+<Habitacion>..................................................................................................................</Habitacion>
+<Hora>10:00:00</Hora>
+<Personas>3</Personas>
+<Adultos>3</Adultos>
+<Niños>0</Niños>
+<Bebes>0</Bebes>
+<Bicis>0</Bicis>
+<Agencia></Agencia>
+<LugarRecogida>................................................................................................................................</LugarRecogida>
+<Observacion>COBRAR 95,00 EUR</Observacion>
+</Hotel>
+</Hoteles>
+</Zona>
+</Zonas>
+</Albaran>
+</Albaranes>
+</Transaction>

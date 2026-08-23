@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Transaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Albaranes>
+<Albaran>
+<Numero>832605</Numero>
+<Empresa>AUTOCARES LEVANTE, S.A.</Empresa>
+<Fecha>17/06/2025</Fecha>
+<TipoRec>E</TipoRec>
+<Alias></Alias>
+<Proveedor>TEST</Proveedor>
+<TipoSer>E</TipoSer>
+<Hora>01:15:00</Hora>
+<HoraAeropuerto>00:00:00</HoraAeropuerto>
+<Letrero>75</Letrero>
+<TTOO>T.U.I</TTOO>
+<Agencia>ULTRAMAR (GC4MD)</Agencia>
+<Excursion></Excursion>
+<Guia></Guia>
+<Aeropuerto>HAM</Aeropuerto>
+<Vuelo>DE6696</Vuelo>
+<Observacion></Observacion>
+<Referencia>1601840</Referencia>
+<ObservacionChofer></ObservacionChofer>
+<Zonas>
+<Zona>
+<Orden>1</Orden>
+<ZonaInicio>CM</ZonaInicio>
+<ZonaFin>CR</ZonaFin>
+<Hora>01:15:00</Hora>
+<Personas>3</Personas>
+<Adultos>3</Adultos>
+<Niños>0</Niños>
+<Bicis>0</Bicis>
+<Bebes>0</Bebes>
+<NiñosB>0</NiñosB>
+<Invitados>0</Invitados>
+<Hoteles>
+<Hotel>
+<Orden>1</Orden>
+<Establecimiento>MALLORCA MAR................................................................................................................................................</Establecimiento>
+<Habitacion>..................................................................................................................</Habitacion>
+<Hora>01:15:00</Hora>
+<Personas>3</Personas>
+<Adultos>3</Adultos>
+<Niños>0</Niños>
+<Bebes>0</Bebes>
+<Bicis>0</Bicis>
+<Agencia></Agencia>
+<LugarRecogida>................................................................................................................................</LugarRecogida>
+<Observacion>IMPORTANTE: PONER 1 SILLA/S DE BEBÉS (NIÑO/S DE 3 AÑO/S) [TUI BLUE GRUPOTEL MALLORCA MAR] ANNELIE, ALBRECHT</Observacion>
+</Hotel>
+</Hoteles>
+</Zona>
+</Zonas>
+</Albaran>
+<Albaran>
+<Numero>832989</Numero>
+<Empresa>AUTOCARES LEVANTE, S.A.</Empresa>
+<Fecha>Martes, 17 de Junio de 2025</Fecha>
+<TipoRec>E</TipoRec>
+<Proveedor>TEST</Proveedor>
+<TipoSer>E</TipoSer>
+<Hora>02:30:00</Hora>
+<HoraAeropuerto>00:00:00</HoraAeropuerto>
+<Letrero>44</Letrero>
+<TTOO>T.U.I</TTOO>
+<Agencia>ULTRAMAR (GC4MD)</Agencia>
+<Excursion></Excursion>
+<Guia></Guia>
+<Aeropuerto>MAN</Aeropuerto>
+<Vuelo>TOM2170</Vuelo>
+<Observacion></Observacion>
+<Referencia>1602371</Referencia>
+<ObservacionChofer></ObservacionChofer>
+<Zonas>
+<Zona>
+<Orden>1</Orden>
+<ZonaInicio>CR</ZonaInicio>
+<ZonaFin>CR</ZonaFin>
+<Hora>02:30:00</Hora>
+<Personas>3</Personas>
+<Adultos>3</Adultos>
+<Niños>0</Niños>
+<Bicis>0</Bicis>
+<Bebes>0</Bebes>
+<NiñosB>0</NiñosB>
+<Invitados>0</Invitados>
+<Hoteles>
+<Hotel>
+<Orden>1</Orden>
+<Establecimiento>FONT DE SA CALA................................................................................................................................................</Establecimiento>
+<Habitacion>..................................................................................................................</Habitacion>
+<Hora>02:30:00</Hora>
+<Personas>3</Personas>
+<Adultos>3</Adultos>
+<Niños>0</Niños>
+<Bebes>0</Bebes>
+<Bicis>0</Bicis>
+<Agencia></Agencia>
+<LugarRecogida>................................................................................................................................</LugarRecogida>
+<Observacion>[BEACH CLUB FONT DE SA CALA] J. STEAD</Observacion>
+</Hotel>
+</Hoteles>
+</Zona>
+</Zonas>
+</Albaran>
+<Albaran>
+<Numero>833112</Numero>
+<Empresa>AUTOCARES LEVANTE, S.A.</Empresa>
+<Fecha>Martes, 17 de Junio de 2025</Fecha>
+<TipoRec>E</TipoRec>
+<Proveedor>TEST</Proveedor>
+<TipoSer>E</TipoSer>
+<Hora>09:45:00</Hora>
+<HoraAeropuerto>00:00:00</HoraAeropuerto>
+<Letrero>99</Letrero>
+<TTOO>T.U.I</TTOO>
+<Agencia>ULTRAMAR (GC4MD)</Agencia>
+<Excursion></Excursion>
+<Guia></Guia>
+<Aeropuerto>BRS</Aeropuerto>
+<Vuelo>TOM6272</Vuelo>
+<Observacion></Observacion>
+<Referencia>1602609</Referencia>
+<ObservacionChofer></ObservacionChofer>
+<Zonas>
+<Zona>
+<Orden>1</Orden>
+<ZonaInicio>CR</ZonaInicio>
+<ZonaFin>CR</ZonaFin>
+<Hora>09:45:00</Hora>
+<Personas>3</Personas>
+<Adultos>3</Adultos>
+<Niños>0</Niños>
+<Bicis>0</Bicis>
+<Bebes>0</Bebes>
+<NiñosB>0</NiñosB>
+<Invitados>0</Invitados>
+<Hoteles>
+<Hotel>
+<Orden>1</Orden>
+<Establecimiento>AGUAIT................................................................................................................................................</Establecimiento>
+<Habitacion>..................................................................................................................</Habitacion>
+<Hora>09:45:00</Hora>
+<Personas>3</Personas>
+<Adultos>3</Adultos>
+<Niños>0</Niños>
+<Bebes>0</Bebes>
+<Bicis>0</Bicis>
+<Agencia></Agencia>
+<LugarRecogida>................................................................................................................................</LugarRecogida>
+<Observacion>[GRUPOTEL AGUAIT] K. TUCKER</Observacion>
+</Hotel>
+</Hoteles>
+</Zona>
+</Zonas>
+</Albaran>
+<Albaran>
+<Numero>833121</Numero>
+<Empresa>AUTOCARES LEVANTE, S.A.</Empresa>
+<Fecha>Martes, 17 de Junio de 2025</Fecha>
+<TipoRec>E</TipoRec>
+<Proveedor>TEST</Proveedor>
+<TipoSer>E</TipoSer>
+<Hora>10:10:00</Hora>
+<HoraAeropuerto>00:00:00</HoraAeropuerto>
+<Letrero>356</Letrero>
+<TTOO>T.U.I</TTOO>
+<Agencia>ULTRAMAR (GC4MD)</Agencia>
+<Excursion></Excursion>
+<Guia></Guia>
+<Aeropuerto>GLA</Aeropuerto>
+<Vuelo>TOM1218</Vuelo>
+<Observacion>MINIVAN BAJO</Observacion>
+<Referencia>1602333</Referencia>
+<ObservacionChofer></ObservacionChofer>
+<Zonas>
+<Zona>
+<Orden>1</Orden>
+<ZonaInicio>CM</ZonaInicio>
+<ZonaFin>CR</ZonaFin>
+<Hora>10:10:00</Hora>
+<Personas>2</Personas>
+<Adultos>2</Adultos>
+<Niños>0</Niños>
+<Bicis>0</Bicis>
+<Bebes>0</Bebes>
+<NiñosB>0</NiñosB>
+<Invitados>0</Invitados>
+<Hoteles>
+<Hotel>
+<Orden>1</Orden>
+<Establecimiento>PLAYA C. MILLOR PROTUR................................................................................................................................................</Establecimiento>
+<Habitacion>..................................................................................................................</Habitacion>
+<Hora>10:10:00</Hora>
+<Personas>2</Personas>
+<Adultos>2</Adultos>
+<Niños>0</Niños>
+<Bebes>0</Bebes>
+<Bicis>0</Bicis>
+<Agencia></Agencia>
+<LugarRecogida>................................................................................................................................</LugarRecogida>
+<Observacion>356  (STANDARD WELFARE MINIVAN-WELFARE)[PROTUR PLAYA CALA MILLOR] R. ELSBY</Observacion>
+</Hotel>
+</Hoteles>
+</Zona>
+</Zonas>
+</Albaran>
+<Albaran>
+<Numero>833123</Numero>
+<Empresa>AUTOCARES LEVANTE, S.A.</Empresa>
+<Fecha>Martes, 17 de Junio de 2025</Fecha>
+<TipoRec>E</TipoRec>
+<Proveedor>TEST</Proveedor>
+<TipoSer>E</TipoSer>
+<Hora>10:10:00</Hora>
+<HoraAeropuerto>00:00:00</HoraAeropuerto>
+<Letrero>37</Letrero>
+<TTOO>T.U.I</TTOO>
+<Agencia>ULTRAMAR (GC4MD)</Agencia>
+<Excursion></Excursion>
+<Guia></Guia>
+<Aeropuerto>EXT</Aeropuerto>
+<Vuelo>TOM6200</Vuelo>
+<Observacion></Observacion>
+<Referencia>1602357</Referencia>
+<ObservacionChofer></ObservacionChofer>
+<Zonas>
+<Zona>
+<Orden>1</Orden>
+<ZonaInicio>CR</ZonaInicio>
+<ZonaFin>CR</ZonaFin>
+<Hora>10:10:00</Hora>
+<Personas>4</Personas>
+<Adultos>4</Adultos>
+<Niños>0</Niños>
+<Bicis>0</Bicis>
+<Bebes>0</Bebes>
+<NiñosB>0</NiñosB>
+<Invitados>0</Invitados>
+<Hoteles>
+<Hotel>
+<Orden>1</Orden>
+<Establecimiento>FONT DE SA CALA................................................................................................................................................</Establecimiento>
+<Habitacion>..................................................................................................................</Habitacion>
+<Hora>10:10:00</Hora>
+<Personas>4</Personas>
+<Adultos>4</Adultos>
+<Niños>0</Niños>
+<Bebes>0</Bebes>
+<Bicis>0</Bicis>
+<Agencia></Agencia>
+<LugarRecogida>................................................................................................................................</LugarRecogida>
+<Observacion>IMPORTANTE: PONER 2 SILLA/S DE BEBÉS (NIÑO/S DE 3 Y 1 AÑO/S) [BEACH CLUB FONT DE SA CALA] C. CLAYTON</Observacion>
+</Hotel>
+</Hoteles>
+</Zona>
+</Zonas>
+</Albaran>
+<Albaran>
+<Numero>833147</Numero>
+<Empresa>AUTOCARES LEVANTE, S.A.</Empresa>
+<Fecha>Martes, 17 de Junio de 2025</Fecha>
+<TipoRec>E</TipoRec>
+<Proveedor>TEST</Proveedor>
+<TipoSer>E</TipoSer>
+<Hora>11:20:00</Hora>
+<HoraAeropuerto>00:00:00</HoraAeropuerto>
+<Letrero>383</Letrero>
+<TTOO>T.U.I</TTOO>
+<Agencia>ULTRAMAR (GC4MD)</Agencia>
+<Excursion></Excursion>
+<Guia></Guia>
+<Aeropuerto>BHX</Aeropuerto>
+<Vuelo>TOM7226</Vuelo>
+<Observacion>TAXI PRIVADO</Observacion>
+<Referencia>1602594</Referencia>
+<ObservacionChofer></ObservacionChofer>
+<Zonas>
+<Zona>
+<Orden>1</Orden>
+<ZonaInicio>CM</ZonaInicio>
+<ZonaFin>CR</ZonaFin>
+<Hora>11:20:00</Hora>
+<Personas>2</Personas>
+<Adultos>2</Adultos>
+<Niños>0</Niños>
+<Bicis>0</Bicis>
+<Bebes>0</Bebes>
+<NiñosB>0</NiñosB>
+<Invitados>0</Invitados>
+<Hoteles>
+<Hotel>
+<Orden>1</Orden>
+<Establecimiento>HIPOCAMPO PALACE................................................................................................................................................</Establecimiento>
+<Habitacion>..................................................................................................................</Habitacion>
+<Hora>11:20:00</Hora>
+<Personas>2</Personas>
+<Adultos>2</Adultos>
+<Niños>0</Niños>
+<Bebes>0</Bebes>
+<Bicis>0</Bicis>
+<Agencia></Agencia>
+<LugarRecogida>................................................................................................................................</LugarRecogida>
+<Observacion>[HIPOCAMPO PALACE] P. HOWLETT , K. HOWLETT </Observacion>
+</Hotel>
+</Hoteles>
+</Zona>
+</Zonas>
+</Albaran>
+<Albaran>
+<Numero>833284</Numero>
+<Empresa>AUTOCARES LEVANTE, S.A.</Empresa>
+<Fecha>Martes, 17 de Junio de 2025</Fecha>
+<TipoRec>E</TipoRec>
+<Proveedor>TEST</Proveedor>
+<TipoSer>E</TipoSer>
+<Hora>17:50:00</Hora>
+<HoraAeropuerto>00:00:00</HoraAeropuerto>
+<Letrero>ANABEL WIESER</Letrero>
+<TTOO></TTOO>
+<Agencia>ANABEL WIESER</Agencia>
+<Excursion></Excursion>
+<Guia></Guia>
+<Aeropuerto></Aeropuerto>
+<Vuelo>OS435</Vuelo>
+<Observacion></Observacion>
+<Referencia>ANABEL WIESER</Referencia>
+<ObservacionChofer></ObservacionChofer>
+<Zonas>
+<Zona>
+<Orden>1</Orden>
+<ZonaInicio>CR</ZonaInicio>
+<ZonaFin></ZonaFin>
+<Hora>17:50:00</Hora>
+<Personas>2</Personas>
+<Adultos>2</Adultos>
+<Niños>0</Niños>
+<Bicis>0</Bicis>
+<Bebes>0</Bebes>
+<NiñosB>0</NiñosB>
+<Invitados>0</Invitados>
+<Hoteles>
+<Hotel>
+<Orden>1</Orden>
+<Establecimiento>CANYAMEL PARK................................................................................................................................................</Establecimiento>
+<Habitacion>..................................................................................................................</Habitacion>
+<Hora>17:50:00</Hora>
+<Personas>2</Personas>
+<Adultos>2</Adultos>
+<Niños>0</Niños>
+<Bebes>0</Bebes>
+<Bicis>0</Bicis>
+<Agencia></Agencia>
+<LugarRecogida>................................................................................................................................</LugarRecogida>
+<Observacion></Observacion>
+</Hotel>
+</Hoteles>
+</Zona>
+</Zonas>
+</Albaran>
+<Albaran>
+<Numero>833236</Numero>
+<Empresa>AUTOCARES LEVANTE, S.A.</Empresa>
+<Fecha>Martes, 17 de Junio de 2025</Fecha>
+<TipoRec>E</TipoRec>
+<Proveedor>TEST</Proveedor>
+<TipoSer>E</TipoSer>
+<Hora>18:10:00</Hora>
+<HoraAeropuerto>00:00:00</HoraAeropuerto>
+<Letrero>308</Letrero>
+<TTOO>T.U.I</TTOO>
+<Agencia>ULTRAMAR (GC4MD)</Agencia>
+<Excursion></Excursion>
+<Guia></Guia>
+<Aeropuerto>HAJ</Aeropuerto>
+<Vuelo>X32618</Vuelo>
+<Observacion>TAXI PRIVADO</Observacion>
+<Referencia>1602434</Referencia>
+<ObservacionChofer></ObservacionChofer>
+<Zonas>
+<Zona>
+<Orden>1</Orden>
+<ZonaInicio>CR</ZonaInicio>
+<ZonaFin>CR</ZonaFin>
+<Hora>18:10:00</Hora>
+<Personas>1</Personas>
+<Adultos>1</Adultos>
+<Niños>0</Niños>
+<Bicis>0</Bicis>
+<Bebes>0</Bebes>
+<NiñosB>0</NiñosB>
+<Invitados>0</Invitados>
+<Hoteles>
+<Hotel>
+<Orden>1</Orden>
+<Establecimiento>SERRANO PALACE................................................................................................................................................</Establecimiento>
+<Habitacion>..................................................................................................................</Habitacion>
+<Hora>18:10:00</Hora>
+<Personas>1</Personas>
+<Adultos>1</Adultos>
+<Niños>0</Niños>
+<Bebes>0</Bebes>
+<Bicis>0</Bicis>
+<Agencia></Agencia>
+<LugarRecogida>................................................................................................................................</LugarRecogida>
+<Observacion>[SERRANO PALACE] KARIN BIEWALD</Observacion>
+</Hotel>
+</Hoteles>
+</Zona>
+</Zonas>
+</Albaran>
+<Albaran>
+<Numero>833238</Numero>
+<Empresa>AUTOCARES LEVANTE, S.A.</Empresa>
+<Fecha>Martes, 17 de Junio de 2025</Fecha>
+<TipoRec>E</TipoRec>
+<Proveedor>TEST</Proveedor>
+<TipoSer>E</TipoSer>
+<Hora>18:30:00</Hora>
+<HoraAeropuerto>00:00:00</HoraAeropuerto>
+<Letrero>63</Letrero>
+<TTOO>T.U.I</TTOO>
+<Agencia>ULTRAMAR (GC4MD)</Agencia>
+<Excursion></Excursion>
+<Guia></Guia>
+<Aeropuerto>DUS</Aeropuerto>
+<Vuelo>EW9586</Vuelo>
+<Observacion></Observacion>
+<Referencia>1604824</Referencia>
+<ObservacionChofer></ObservacionChofer>
+<Zonas>
+<Zona>
+<Orden>1</Orden>
+<ZonaInicio>CR</ZonaInicio>
+<ZonaFin>CR</ZonaFin>
+<Hora>18:30:00</Hora>
+<Personas>4</Personas>
+<Adultos>4</Adultos>
+<Niños>0</Niños>
+<Bicis>0</Bicis>
+<Bebes>0</Bebes>
+<NiñosB>0</NiñosB>
+<Invitados>0</Invitados>
+<Hoteles>
+<Hotel>
+<Orden>1</Orden>
+<Establecimiento>CANYAMEL PARK................................................................................................................................................</Establecimiento>
+<Habitacion>..................................................................................................................</Habitacion>
+<Hora>18:30:00</Hora>
+<Personas>2</Personas>
+<Adultos>2</Adultos>
+<Niños>0</Niños>
+<Bebes>0</Bebes>
+<Bicis>0</Bicis>
+<Agencia></Agencia>
+<LugarRecogida>................................................................................................................................</LugarRecogida>
+<Observacion></Observacion>
+</Hotel>
+<Hotel>
+<Orden>2</Orden>
+<Establecimiento>NA FORANA................................................................................................................................................</Establecimiento>
+<Habitacion>..................................................................................................................</Habitacion>
+<Hora>18:30:00</Hora>
+<Personas>2</Personas>
+<Adultos>2</Adultos>
+<Niños>0</Niños>
+<Bebes>0</Bebes>
+<Bicis>0</Bicis>
+<Agencia></Agencia>
+<LugarRecogida>................................................................................................................................</LugarRecogida>
+<Observacion>[CANYAMEL PARK HOTEL Y SPA] MICHAEL ULRICH, SCHNETZKE[NA FORANA] CHRISTINE, GAWARECKI</Observacion>
+</Hotel>
+</Hoteles>
+</Zona>
+</Zonas>
+</Albaran>
+<Albaran>
+<Numero>833240</Numero>
+<Empresa>AUTOCARES LEVANTE, S.A.</Empresa>
+<Fecha>Martes, 17 de Junio de 2025</Fecha>
+<TipoRec>E</TipoRec>
+<Proveedor>TEST</Proveedor>
+<TipoSer>E</TipoSer>
+<Hora>18:55:00</Hora>
+<HoraAeropuerto>00:00:00</HoraAeropuerto>
+<Letrero>8</Letrero>
+<TTOO>T.U.I</TTOO>
+<Agencia>ULTRAMAR (GC4MD)</Agencia>
+<Excursion></Excursion>
+<Guia></Guia>
+<Aeropuerto>FICT</Aeropuerto>
+<Vuelo>EW9588</Vuelo>
+<Observacion></Observacion>
+<Referencia>1602633</Referencia>
+<ObservacionChofer></ObservacionChofer>
+<Zonas>
+<Zona>
+<Orden>1</Orden>
+<ZonaInicio>CR</ZonaInicio>
+<ZonaFin>CR</ZonaFin>
+<Hora>18:55:00</Hora>
+<Personas>2</Personas>
+<Adultos>2</Adultos>
+<Niños>0</Niños>
+<Bicis>0</Bicis>
+<Bebes>0</Bebes>
+<NiñosB>0</NiñosB>
+<Invitados>0</Invitados>
+<Hoteles>
+<Hotel>
+<Orden>1</Orden>
+<Establecimiento>S&apos;ENTRADOR................................................................................................................................................</Establecimiento>
+<Habitacion>..................................................................................................................</Habitacion>
+<Hora>18:55:00</Hora>
+<Personas>2</Personas>
+<Adultos>2</Adultos>
+<Niños>0</Niños>
+<Bebes>0</Bebes>
+<Bicis>0</Bicis>
+<Agencia></Agencia>
+<LugarRecogida>................................................................................................................................</LugarRecogida>
+<Observacion>[S&apos;ENTRADOR PLAYA] SASCHA, LEUSINK</Observacion>
+</Hotel>
+</Hoteles>
+</Zona>
+</Zonas>
+</Albaran>
+</Albaranes>
+</Transaction>
