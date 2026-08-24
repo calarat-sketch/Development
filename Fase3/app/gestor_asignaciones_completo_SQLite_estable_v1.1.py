@@ -43,9 +43,81 @@ except ImportError:
         DateEntry = None
 
 # Configuración de conexión a SQLite
-BASE_DIR = os.path.dirname(os.path.abspath(__file__)) if __file__ else os.getcwd()
-DB_FILE = os.path.join(BASE_DIR, "gestor_datos.db")
-LOG_FILE = os.path.join(BASE_DIR, "log_asignacion_conductores.txt")
+
+def resolver_ruta_base():
+    """Devuelve la carpeta correcta tanto en modo script como en EXE empaquetado."""
+    if getattr(sys, 'frozen', False):
+        # En modo EXE, buscar desde el directorio del ejecutable
+        candidates = []
+        if hasattr(sys, '_MEIPASS') and sys._MEIPASS:
+            candidates.append(sys._MEIPASS)
+        if getattr(sys, 'executable', None):
+            candidates.append(os.path.dirname(os.path.abspath(sys.executable)))
+        candidates.append(os.getcwd())
+        return candidates[0] if candidates else os.getcwd()
+    
+    # En modo script, retornar el directorio de Fase3 (padre del directorio app/)
+    if __file__:
+        app_dir = os.path.dirname(os.path.abspath(__file__))
+        return os.path.dirname(app_dir)  # Sube de app/ a Fase3/
+    return os.getcwd()
+
+
+BASE_DIR = resolver_ruta_base()
+
+
+def resolver_ruta_archivo(nombre_archivo, subcarpeta=''):
+    """Busca un archivo en la estructura de carpetas reorganizada."""
+    if getattr(sys, 'frozen', False):
+        # En EXE, buscar en data/ o logs/ según el archivo
+        if nombre_archivo == "gestor_datos.db":
+            subcarpeta = 'data'
+        elif nombre_archivo == "log_asignacion_conductores.txt":
+            subcarpeta = 'logs'
+        elif nombre_archivo == "config.ini":
+            subcarpeta = 'data'
+        
+        exe_dir = os.path.dirname(os.path.abspath(sys.executable))
+        if subcarpeta:
+            path = os.path.join(exe_dir, subcarpeta, nombre_archivo)
+            if os.path.exists(path):
+                return path
+        path = os.path.join(exe_dir, nombre_archivo)
+        if os.path.exists(path):
+            return path
+        # Fallback: buscar junto al exe
+        return os.path.join(exe_dir, nombre_archivo)
+    
+    # En modo script, usar la estructura de carpetas
+    if nombre_archivo == "gestor_datos.db":
+        subcarpeta = 'data'
+    elif nombre_archivo == "log_asignacion_conductores.txt":
+        subcarpeta = 'logs'
+    elif nombre_archivo == "config.ini":
+        subcarpeta = 'data'
+    
+    if subcarpeta:
+        path = os.path.join(BASE_DIR, subcarpeta, nombre_archivo)
+        if os.path.exists(path):
+            return path
+    
+    # Fallback en BASE_DIR
+    path = os.path.join(BASE_DIR, nombre_archivo)
+    if os.path.exists(path):
+        return path
+    
+    # Último intento: en el cwd
+    if os.path.exists(nombre_archivo):
+        return os.path.abspath(nombre_archivo)
+    
+    # Default: retornar ruta esperada en data/
+    if subcarpeta:
+        return os.path.join(BASE_DIR, subcarpeta, nombre_archivo)
+    return os.path.join(BASE_DIR, nombre_archivo)
+
+
+DB_FILE = resolver_ruta_archivo("gestor_datos.db")
+LOG_FILE = resolver_ruta_archivo("log_asignacion_conductores.txt")
 GUI_LOG_CALLBACK = None
 
 def log(mensaje):
@@ -803,8 +875,8 @@ def cargar_config_conductores():
         import configparser
         config = configparser.ConfigParser()
         
-        # Intentar leer config.ini en el mismo directorio que el script
-        config_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "config.ini")
+        # Intentar leer config.ini en el mismo directorio que el script o el ejecutable
+        config_path = resolver_ruta_archivo("config.ini")
         if not os.path.exists(config_path):
             log("⚠ config.ini no encontrado, usando valores por defecto")
             return None
@@ -925,6 +997,23 @@ class KanbanBoard(ctk.CTk): # Heredamos de CTk
         self.loading_bar.pack(side=tk.LEFT, padx=(8, 0))
         self.loading_bar.set(0)
         self.loading_bar.pack_forget()
+
+        # Separador visual
+        ctk.CTkFrame(toolbar, width=2, height=20, fg_color="#dfe1e6").pack(side=tk.LEFT, padx=10)
+
+        # Grupo 4: Estadísticas
+        ctk.CTkLabel(toolbar, text="ESTADO:", font=("Segoe UI", 10, "bold"), text_color=self.theme["text_light"]).pack(side=tk.LEFT, padx=(0,5))
+        self.lbl_stats_total = ctk.CTkLabel(toolbar, text="📊 Grupos: 0", font=("Segoe UI", 10), text_color=self.theme["text_main"])
+        self.lbl_stats_total.pack(side=tk.LEFT, padx=5)
+        
+        self.lbl_stats_pax = ctk.CTkLabel(toolbar, text="👥 Total Pax: 0", font=("Segoe UI", 10), text_color=self.theme["text_main"])
+        self.lbl_stats_pax.pack(side=tk.LEFT, padx=5)
+        
+        self.lbl_stats_asignados = ctk.CTkLabel(toolbar, text="✅ Asignados: 0%", font=("Segoe UI", 10), text_color=self.theme["text_main"])
+        self.lbl_stats_asignados.pack(side=tk.LEFT, padx=5)
+        
+        self.lbl_stats_conductores = ctk.CTkLabel(toolbar, text="🚍 Conductores: 0", font=("Segoe UI", 10), text_color=self.theme["text_main"])
+        self.lbl_stats_conductores.pack(side=tk.LEFT, padx=5)
 
         ctk.CTkButton(toolbar, text="⚙ Config", command=self.accion_configuracion, **btn_style).pack(side=tk.LEFT, padx=2)
         

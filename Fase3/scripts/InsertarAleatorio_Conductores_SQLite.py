@@ -2,9 +2,19 @@
 import sqlite3
 import random
 import string
+import os
+from pathlib import Path
 
-# Configuración de conexión a SQLite
-DB_FILE = "gestor_datos.db"
+# Configuración de conexión a SQLite - buscar en data/ o en carpeta padre
+script_dir = os.path.dirname(os.path.abspath(__file__))
+parent_dir = os.path.dirname(script_dir)  # Sube de scripts/ a Fase3/
+db_path = os.path.join(parent_dir, 'data', 'gestor_datos.db')
+
+# Fallback si no existe
+if not os.path.exists(db_path):
+    db_path = os.path.join(parent_dir, 'gestor_datos.db')
+
+DB_FILE = db_path
 
 # Función para leer la tabla 'conductores' usando una conexión existente
 def leer_conductores(conexion):

@@ -1,0 +1,64 @@
+# Entorno Virtual
+.venv/
+venv/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Bases de datos y logs
+data/gestor_datos.db
+data/gestor_datos.db-shm
+data/gestor_datos.db-wal
+logs/log_asignacion_conductores.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# PyInstaller
+*.spec
+
+# Compilación y build
+build/
+dist/
+
+# Cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Temporales
+*.tmp
+*.bak
+*.backup
+
+# Sistema operativo
+Thumbs.db
+.DS_Store

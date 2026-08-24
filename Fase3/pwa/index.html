@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#0079bf">
+    <meta name="description" content="Gestor de Rutas - PWA para Conductores">
+    <title>Gestor de Rutas - Conductor</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect fill='%230079bf' width='192' height='192'/><text x='50%' y='50%' font-size='100' font-weight='bold' text-anchor='middle' dominant-baseline='middle' fill='white'>🚌</text></svg>">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <h1>🚌 Gestor de Rutas</h1>
+            <div class="conductor-selector">
+                <select id="conductorSelect" onchange="cambiarConductor()">
+                    <option value="">Selecciona Conductor...</option>
+                </select>
+                <span id="conductorInfo" class="conductor-info"></span>
+            </div>
+        </header>
+
+        <!-- Vista Principal -->
+        <main class="main-content">
+            <!-- Pantalla de Selección de Conductor -->
+            <section id="selectScreen" class="screen active">
+                <div class="empty-state">
+                    <div class="icon">👥</div>
+                    <p>Selecciona un conductor para ver sus rutas</p>
+                </div>
+            </section>
+
+            <!-- Pantalla de Rutas -->
+            <section id="rutasScreen" class="screen">
+                <div id="rutasList" class="rutas-list">
+                    <!-- Se llena dinámicamente -->
+                </div>
+            </section>
+
+            <!-- Pantalla de Detalles de Ruta -->
+            <section id="detalleRutaScreen" class="screen">
+                <div class="ruta-header">
+                    <button class="btn-back" onclick="volverArutas()">← Atrás</button>
+                    <div class="ruta-titulo">
+                        <h2 id="rutaTitulo">Ruta #1</h2>
+                        <span id="rutaEstado" class="estado-badge"></span>
+                    </div>
+                </div>
+
+                <div class="ruta-info">
+                    <div class="info-item">
+                        <span class="label">Hora Salida</span>
+                        <span id="rutaHoraInicio" class="value">--:--</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="label">Hora Llegada</span>
+                        <span id="rutaHoraFin" class="value">--:--</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="label">Personas</span>
+                        <span id="rutaPersonas" class="value">0</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="label">Paradas</span>
+                        <span id="rutaParadas" class="value">0</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="label">Inicio real</span>
+                        <span id="rutaFechaInicioReal" class="value">--</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="label">Fin real</span>
+                        <span id="rutaFechaFinReal" class="value">--</span>
+                    </div>
+                </div>
+
+                <div class="ruta-observaciones">
+                    <h3>Observaciones</h3>
+                    <p id="rutaObservaciones">Sin observaciones</p>
+                </div>
+
+                <div class="ruta-actions">
+                    <button id="btnIniciarRuta" class="btn btn-primary" onclick="iniciarRuta()">
+                        ▶️ Iniciar Ruta
+                    </button>
+                    <button id="btnFinalizarRuta" class="btn btn-danger" onclick="finalizarRuta()" style="display:none;">
+                        ⏹️ Finalizar Ruta
+                    </button>
+                </div>
+
+                <div class="paradas-container">
+                    <h3>Paradas 📍</h3>
+                    <div id="paradasList" class="paradas-list">
+                        <!-- Se llena dinámicamente -->
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="sync-status" id="syncStatus">
+                <span id="syncIndicator" class="sync-dot"></span>
+                <span id="syncText">Conectado</span>
+            </div>
+            <div class="app-version">v1.0.1</div>
+        </footer>
+    </div>
+
+    <!-- Notificación Toast -->
+    <div id="toast" class="toast"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
